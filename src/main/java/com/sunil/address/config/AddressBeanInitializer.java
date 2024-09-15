@@ -18,10 +18,10 @@ public class AddressBeanInitializer
 	
 	private static final Logger log = LoggerFactory.getLogger(AddressBeanInitializer.class);
 	
-//	@Bean
-//	public RestTemplate getRestTemplate()
-//	{
-//		log.info("initializing RestTemplate");
-//		return new RestTemplate();
-//	}
+	@Bean
+	public RestTemplate getRestTemplate()
+	{
+		log.info("initializing RestTemplate");
+		return new RestTemplate();
+	}
 }
