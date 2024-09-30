@@ -8,7 +8,7 @@ ARG CATALINA_HOME=/usr/local/tomcat
 COPY target/address-1.0.war $CATALINA_HOME/webapps/
 
 # Expose the default Tomcat port
-EXPOSE 8080
+EXPOSE 8090
 
 # Run Tomcat
 CMD ["catalina.sh", "run"]
